@@ -56,10 +56,15 @@ There are many different types of instruct dataset formats.  Here is an example 
 
 The following is an example of the format with context:
 ```
-<s>How do you play Baseball?
+<s>From the text below, tell me where Mount Balinhard got its name.
+
+Input:
+Mount Balinhard is a summit in Alberta, Canada.
+
+Mount Balinhard was named for a title bestowed on the Earl of Southesk.
 
 Output:
-Baseball is a game between two teams involving a baseball, which is a ball that is about 2 inches in diameter, and a bat used to hit the ball. Two teams alternate turns pitching and hitting the ball. The hitting team attempts to score as many runs by advancing through the four bases, prior to their team getting three outs during their turn hitting. The pitching team's objective is to prevent the hitting team from scoring runs. Games traditionally last 9 innings, with each team having the opportunity to both hit and pitch 9 times. The team with the most runs after 9 innings wins the game.</s>
+Balinhard was a title bestowed on the Earl of Southesk, from which Mount Balinhard gets its name.</s>
 ```
 
 Without context:
