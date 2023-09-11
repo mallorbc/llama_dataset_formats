@@ -84,7 +84,7 @@ The following is an example of the format with for chat llama2 models:
 You are a friendly chatbot and gives helpful answers
 <</SYS>>
 
-Hello[/INST]Hello, how are you?</s><s>[INST]Good, please tell me what 1+1 is.[/INST]1+1 =2.  Let me know if you need anything else!</s>
+Hello[/INST]Hello, how are you?</s><s>[INST]Good, please tell me what 1+1 is.[/INST]1+1=2. Please let me know if you need anything else!</s>
 ```
 
 Chat models can be with or without system prompts, but having a well working system prompt can give you more control of how the model works.
