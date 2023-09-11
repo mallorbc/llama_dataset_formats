@@ -138,7 +138,7 @@ if __name__ == "__main__":
     parser.add_argument("-d","--dataset",type=str,help="What huggingface dataset to use",default="databricks/databricks-dolly-15k")
     parser.add_argument("--histogram",action="store_true",default=False)
     parser.add_argument("--max_tokens",type=int,help="Maximum number of tokens to use",default=1024)
-    parser.add_argument("--pad_token_id",type=int,default=None)
+    parser.add_argument("--pad_token_id",type=int,default=18610)
 
     args = parser.parse_args()
     seed_all(args.seed)
