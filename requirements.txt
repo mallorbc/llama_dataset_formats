@@ -1,0 +1,10 @@
+datasets
+pandas
+torch
+transformers
+plotly
+rich
+numpy
+langchain
+scipy 
+scikit-learn
