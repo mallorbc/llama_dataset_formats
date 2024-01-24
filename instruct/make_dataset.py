@@ -102,7 +102,7 @@ class InstructDataset:
                 all_prompts.append(prompt)
         return all_prompts
 
-    def split_dataset(self,train_size=0.8,validation_size=0.15,test_size=0.05):
+    def split_dataset(self,train_size=0.85,validation_size=0.149,test_size=0.001):
         random.shuffle(self.dataset)
         train_size = int(train_size*len(self.dataset))
         validation_size = int(validation_size*len(self.dataset))
@@ -110,6 +110,9 @@ class InstructDataset:
         train_dataset = self.dataset[:train_size]
         validation_dataset = self.dataset[train_size:train_size+validation_size]
         test_dataset = self.dataset[train_size+validation_size:]
+        print("Train size: ",len(train_dataset))
+        print("Validation size: ",len(validation_dataset))
+        print("Test size: ",len(test_dataset))
         return train_dataset,validation_dataset,test_dataset
 
     def save_dataset_splits(self):
