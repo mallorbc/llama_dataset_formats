@@ -32,7 +32,7 @@ This example is from a quotes dataset.  The input would be the type of quote, an
 <s>success: The successful cannot be unhappy -- it was a contradiction in terms.</s>
 ```
 
-See a video on this dataset here
+See a video on this dataset [here](https://www.youtube.com/watch?v=07ppAKvOhqk&ab_channel=Brillibits)
 
 ### Simple Format With Tags
 
